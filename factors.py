@@ -9,7 +9,7 @@ minimum = min(data)
 
 def prime_num_generator():
     primeN = []
-    for num in range(2, 100):
+    for num in range(2, 1000):
         if num > 1:
             for i in range(2, num):
                 if (num % i) == 0:
@@ -32,3 +32,4 @@ def mul(a, b):
 
 
 mul(data, primeNumbers)
+

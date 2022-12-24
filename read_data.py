@@ -4,3 +4,4 @@ def read_data(name):
         contents = f.read()
         contents_ints = [int(x) for x in contents.split()]
         return contents_ints
+

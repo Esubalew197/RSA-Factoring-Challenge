@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import sys
-from read_data import read_data
+from read import read
 
-data = read_data(sys.argv[1])
+data = read(sys.argv[1])
 maximmum = max(data)
 minimum = min(data)
 
